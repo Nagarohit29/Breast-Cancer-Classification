@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.9033,
+  "classification_report": {
+    "0": {"precision": 0.79, "recall": 0.93, "f1-score": 0.85, "support": 1395},
+    "1": {"precision": 0.97, "recall": 0.89, "f1-score": 0.93, "support": 3260},
+    "accuracy": 0.9033,
+    "macro avg": {"precision": 0.88, "recall": 0.91, "f1-score": 0.89, "support": 4655},
+    "weighted avg": {"precision": 0.91, "recall": 0.90, "f1-score": 0.91, "support": 4655}
+  }
+}

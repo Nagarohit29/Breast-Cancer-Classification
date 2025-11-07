@@ -1,0 +1,36 @@
+{
+  "dataset": "BreaKHis",
+  "split_strategy": "stratified",
+  "split_ratios": {
+    "train": 0.8,
+    "test": 0.1,
+    "deploy": 0.1
+  },
+  "random_seed": 42,
+  "split_date": "2025-09-29",
+  "magnifications_used": ["40X", "100X", "200X", "400X"],
+  "class_counts": {
+    "train": {
+      "benign": "TBD",
+      "malignant": "TBD",
+      "total": "TBD"
+    },
+    "test": {
+      "benign": "TBD", 
+      "malignant": "TBD",
+      "total": "TBD"
+    },
+    "deploy": {
+      "benign": "TBD",
+      "malignant": "TBD", 
+      "total": "TBD"
+    }
+  },
+  "total_images": "TBD",
+  "preprocessing": {
+    "resize_to": [224, 224],
+    "normalization": "imagenet",
+    "augmentation_applied": false
+  },
+  "notes": "This file will be automatically updated when data preprocessing is run"
+}

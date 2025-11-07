@@ -1,0 +1,82 @@
+================================================================================
+MODEL 1 VISUALIZATION UPDATE - November 7, 2025
+================================================================================
+
+CHANGES MADE:
+-------------
+1. Updated visualization style to match Model 2 format
+2. Changed naming convention from "AlexNet+SVM" and "VGG16+SVM" to "Model 1a" and "Model 1b"
+3. Increased DPI from 300 to 300 (maintained high quality)
+4. Increased figure size from (8x6) to (10x8) to match Model 2
+5. Enhanced font sizes and styling for better readability
+
+NEW FILES GENERATED:
+-------------------
+✓ model_1a_final_confusion_matrix.png (10x8 inches, 300 DPI)
+  - Model 1a (AlexNet + SVM) Confusion Matrix
+  - Enhanced with percentage annotations
+  - Metrics box showing Precision, Recall, Specificity, F1-Score
+  
+✓ model_1a_final_roc_curve.png (10x8 inches, 300 DPI)
+  - Model 1a (AlexNet + SVM) ROC Curve
+  - AUC annotation with highlighted box
+  - Grid overlay for better readability
+  
+✓ model_1b_final_confusion_matrix.png (10x8 inches, 300 DPI)
+  - Model 1b (VGG16 + SVM) Confusion Matrix
+  - Enhanced with percentage annotations
+  - Metrics box showing Precision, Recall, Specificity, F1-Score
+  
+✓ model_1b_final_roc_curve.png (10x8 inches, 300 DPI)
+  - Model 1b (VGG16 + SVM) ROC Curve
+  - AUC annotation with highlighted box
+  - Grid overlay for better readability
+
+STYLE SPECIFICATIONS (Matching Model 2):
+----------------------------------------
+- Figure Size: 10 x 8 inches
+- DPI: 300
+- Title Font Size: 16pt (bold)
+- Axis Label Font Size: 14pt
+- Metrics Box Font Size: 12pt
+- ROC Line Width: 3px
+- Color Scheme: Blues for confusion matrix, Orange for ROC curve
+- Annotations: Red percentages on confusion matrix, Blue AUC box on ROC
+
+MODEL PERFORMANCE:
+------------------
+Model 1a (AlexNet + SVM):
+  • Accuracy:    89.37%
+  • AUC:         0.9687
+  • Precision:   97.26%
+  • Recall:      87.27%
+  • F1-Score:    0.9200
+
+Model 1b (VGG16 + SVM):
+  • Accuracy:    90.87% ← BETTER
+  • AUC:         0.9679
+  • Precision:   96.86%
+  • Recall:      89.88% ← BETTER
+  • F1-Score:    0.9324 ← BETTER
+
+LEGACY FILES RETAINED:
+---------------------
+- alexnet_confusion_matrix.png (old style)
+- alexnet_roc_curve.png (old style)
+- vgg16_confusion_matrix.png (old style)
+- vgg16_roc_curve.png (old style)
+
+RECOMMENDATION:
+--------------
+Use the new "model_1a_final_*" and "model_1b_final_*" files for:
+- Research paper figures
+- Presentations
+- Documentation
+
+The enhanced visualizations provide:
+✓ Consistent style across all models
+✓ Better readability at publication size
+✓ Professional appearance
+✓ Clear model naming (1a vs 1b)
+
+================================================================================

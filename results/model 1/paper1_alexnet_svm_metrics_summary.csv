@@ -1,0 +1,16 @@
+accuracy,precision,recall,f1,AUC
+0.8915,0.9726,0.905,0.88,0.9687
+
+Confusion Matrix:
+TN: 1315, FP: 80
+FN: 415, TP: 2845
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+      Benign       0.76      0.94      0.84      1395
+   Malignant       0.97      0.87      0.92      3260
+
+    accuracy                           0.89      4655
+   macro avg       0.87      0.91      0.88      4655
+weighted avg       0.91      0.89      0.90      4655

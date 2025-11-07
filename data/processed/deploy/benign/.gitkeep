@@ -1,0 +1,2 @@
+# Deploy/Hold-out set - Benign class images (10% of benign data)
+# This set is kept separate for final model evaluation

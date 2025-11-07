@@ -1,0 +1,2 @@
+# Deploy/Hold-out set - Malignant class images (10% of malignant data)  
+# This set is kept separate for final model evaluation

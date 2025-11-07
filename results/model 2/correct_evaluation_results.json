@@ -1,0 +1,62 @@
+{
+  "model_name": "Model 2 - ResNet50 Transfer Learning",
+  "training_completed": true,
+  "epochs_completed": 33,
+  "early_stopped": true,
+  "stopping_reason": "Manual interruption at epoch 33",
+  
+  "best_performance": {
+    "epoch": 24,
+    "validation_accuracy": 0.9603,
+    "validation_loss": 0.1155,
+    "training_accuracy": 0.9745,
+    "training_loss": 0.0777
+  },
+  
+  "final_performance": {
+    "epoch": 32,
+    "validation_accuracy": 0.9420,
+    "validation_loss": 0.2407,
+    "training_accuracy": 0.9824,
+    "training_loss": 0.0539
+  },
+  
+  "training_phases": {
+    "phase_1_feature_extraction": {
+      "epochs": "1-15",
+      "backbone_status": "frozen",
+      "learning_rate": 0.001,
+      "best_val_acc": 0.9130
+    },
+    "phase_2_fine_tuning": {
+      "epochs": "16-33",
+      "backbone_status": "unfrozen", 
+      "learning_rate": 0.0001,
+      "best_val_acc": 0.9603
+    }
+  },
+  
+  "model_architecture": {
+    "backbone": "ResNet-50 (pretrained)",
+    "classifier": "Custom FC layers with dropout and batch norm",
+    "total_parameters": 24690498,
+    "trainable_parameters_initial": 1182466
+  },
+  
+  "training_config": {
+    "dataset": "BreaKHis 100X magnification",
+    "train_samples": 8480,
+    "validation_samples": 1200,
+    "test_samples": 725,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+  },
+  
+  "performance_summary": {
+    "excellent_performance": "96.03% validation accuracy is outstanding for medical imaging",
+    "transfer_learning_success": "Two-phase training (frozen -> unfrozen) worked very well",
+    "overfitting_detected": "After epoch 24, validation accuracy declined while training accuracy increased",
+    "optimal_stopping_point": "Epoch 24 represents the best model state"
+  }
+}

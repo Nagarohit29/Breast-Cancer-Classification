@@ -1,0 +1,12 @@
+# Place original BreaKHis dataset here
+# BreaKHis (Breast Cancer Histopathological Image Classification) dataset
+# 
+# Directory structure:
+# benign/    - All benign breast cancer histopathology images
+# malignant/ - All malignant breast cancer histopathology images
+#
+# Images can be from different magnifications mixed together
+# Supported formats: .png, .jpg, .jpeg, .tif, .tiff
+#
+# Download from: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
+# Run: python scripts/download_breakhis_dataset.py

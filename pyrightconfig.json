@@ -1,0 +1,30 @@
+{
+    "include": [
+        "src",
+        "scripts",
+        "tests"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "data",
+        "models",
+        "results"
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Windows",
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "pythonVersion": "3.11",
+            "pythonPlatform": "Windows",
+            "extraPaths": [
+                "./src"
+            ]
+        }
+    ],
+    "stubPath": "./typings",
+    "typeCheckingMode": "basic"
+}

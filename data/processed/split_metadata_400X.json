@@ -1,0 +1,41 @@
+{
+  "total_samples": 9100,
+  "total_patients": 81,
+  "magnification": 400,
+  "random_state": 42,
+  "splits": {
+    "train": {
+      "samples": 7320,
+      "patients": 64,
+      "percentage": 80.43956043956044
+    },
+    "validation": {
+      "samples": 1095,
+      "patients": 8,
+      "percentage": 12.032967032967033
+    },
+    "test": {
+      "samples": 685,
+      "patients": 9,
+      "percentage": 7.527472527472527
+    }
+  },
+  "class_distribution": {
+    "overall": {
+      "malignant": 6160,
+      "benign": 2940
+    },
+    "train": {
+      "malignant": 4950,
+      "benign": 2370
+    },
+    "validation": {
+      "malignant": 760,
+      "benign": 335
+    },
+    "test": {
+      "malignant": 450,
+      "benign": 235
+    }
+  }
+}

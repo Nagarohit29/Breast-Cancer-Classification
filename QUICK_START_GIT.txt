@@ -1,0 +1,118 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    QUICK REFERENCE - GIT COMMANDS                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📁 PROJECT: D:\ML\breast-cancer-classification
+🔗 REPOSITORY: https://github.com/Nagarohit29/Breast-Cancer-Classification.git
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                          RECOMMENDED METHOD                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🎯 USE GITHUB DESKTOP (Easiest!)
+   1. Download: https://desktop.github.com/
+   2. Sign in with GitHub account
+   3. Add local repository: D:\ML\breast-cancer-classification
+   4. Publish to GitHub
+   ✅ Done!
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     GIT COMMAND LINE (Alternative)                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📥 STEP 1: Install Git
+   Download: https://git-scm.com/download/win
+
+⚙️  STEP 2: Configure (First time only)
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+
+📂 STEP 3: Navigate to project
+   cd D:\ML\breast-cancer-classification
+
+🔧 STEP 4: Initialize Git
+   git init
+
+🔗 STEP 5: Add remote
+   git remote add origin https://github.com/Nagarohit29/Breast-Cancer-Classification.git
+
+➕ STEP 6: Stage files
+   git add .
+
+💾 STEP 7: Commit
+   git commit -m "Initial commit: Complete breast cancer classification project"
+
+🚀 STEP 8: Push to GitHub
+   git branch -M main
+   git push -u origin main
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           WHAT GETS UPLOADED                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+✅ INCLUDED:
+   • All Python scripts (.py)
+   • Documentation (.md files)
+   • Configuration (requirements.txt, environment.yml)
+   • Data splits (CSV files)
+   • Visualizations (PNG files)
+   • Model metrics (JSON files)
+   • SVM models (.joblib files)
+   • Source code (src/)
+
+❌ EXCLUDED (see .gitignore):
+   • Raw dataset (data/raw/BreaKHis_v1/) - 2GB
+   • PyTorch models (.pth files) - 100+ MB each
+   • Python cache (__pycache__/)
+   • Environment file (.env)
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         VERIFY YOUR UPLOAD                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Visit: https://github.com/Nagarohit29/Breast-Cancer-Classification
+
+Check for:
+   ✓ README.md displays correctly
+   ✓ Folders: data/, models/, results/, scripts/, src/
+   ✓ Visualizations are visible
+   ✓ Documentation is readable
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         COMMON ISSUES & FIXES                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+❌ "git: command not found"
+   → Install Git from: https://git-scm.com/download/win
+
+❌ "Permission denied"
+   → Use HTTPS URL and personal access token
+   → Generate at: https://github.com/settings/tokens
+
+❌ "Repository already exists"
+   → git pull origin main --allow-unrelated-histories
+   → git push origin main
+
+❌ "Large files rejected"
+   → Already handled by .gitignore
+   → Check if .gitignore is present
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            AFTER PUSHING                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+1. Add repository description
+2. Add topics: python, pytorch, machine-learning, breast-cancer
+3. Enable Issues and Discussions
+4. Star your own repository ⭐
+5. Share with the community! 🎉
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        NEED MORE HELP?                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📖 See GITHUB_PUSH_GUIDE.txt for detailed instructions
+📧 GitHub Support: https://support.github.com/
+📚 GitHub Docs: https://docs.github.com/
+
+═══════════════════════════════════════════════════════════════════════════════

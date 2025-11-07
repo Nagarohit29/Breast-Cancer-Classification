@@ -1,0 +1,207 @@
+{
+  "all_magnifications": {
+    "total_samples": 39545,
+    "total_patients": 81,
+    "magnification": null,
+    "random_state": 42,
+    "splits": {
+      "train": {
+        "samples": 32045,
+        "patients": 64,
+        "percentage": 81.03426476166393
+      },
+      "validation": {
+        "samples": 4655,
+        "patients": 8,
+        "percentage": 11.771399671260589
+      },
+      "test": {
+        "samples": 2845,
+        "patients": 9,
+        "percentage": 7.194335567075484
+      }
+    },
+    "class_distribution": {
+      "overall": {
+        "malignant": 27145,
+        "benign": 12400
+      },
+      "train": {
+        "malignant": 21985,
+        "benign": 10060
+      },
+      "validation": {
+        "malignant": 3260,
+        "benign": 1395
+      },
+      "test": {
+        "malignant": 1900,
+        "benign": 945
+      }
+    }
+  },
+  "40X": {
+    "total_samples": 9975,
+    "total_patients": 81,
+    "magnification": 40,
+    "random_state": 42,
+    "splits": {
+      "train": {
+        "samples": 8145,
+        "patients": 64,
+        "percentage": 81.65413533834587
+      },
+      "validation": {
+        "samples": 1165,
+        "patients": 8,
+        "percentage": 11.679197994987469
+      },
+      "test": {
+        "samples": 665,
+        "patients": 9,
+        "percentage": 6.666666666666667
+      }
+    },
+    "class_distribution": {
+      "overall": {
+        "malignant": 6850,
+        "benign": 3125
+      },
+      "train": {
+        "malignant": 5590,
+        "benign": 2555
+      },
+      "validation": {
+        "malignant": 820,
+        "benign": 345
+      },
+      "test": {
+        "malignant": 440,
+        "benign": 225
+      }
+    }
+  },
+  "100X": {
+    "total_samples": 10405,
+    "total_patients": 81,
+    "magnification": 100,
+    "random_state": 42,
+    "splits": {
+      "train": {
+        "samples": 8480,
+        "patients": 64,
+        "percentage": 81.49927919269582
+      },
+      "validation": {
+        "samples": 1200,
+        "patients": 8,
+        "percentage": 11.532916866890917
+      },
+      "test": {
+        "samples": 725,
+        "patients": 9,
+        "percentage": 6.967803940413263
+      }
+    },
+    "class_distribution": {
+      "overall": {
+        "malignant": 7185,
+        "benign": 3220
+      },
+      "train": {
+        "malignant": 5870,
+        "benign": 2610
+      },
+      "validation": {
+        "malignant": 840,
+        "benign": 360
+      },
+      "test": {
+        "malignant": 475,
+        "benign": 250
+      }
+    }
+  },
+  "200X": {
+    "total_samples": 10065,
+    "total_patients": 81,
+    "magnification": 200,
+    "random_state": 42,
+    "splits": {
+      "train": {
+        "samples": 8100,
+        "patients": 64,
+        "percentage": 80.4769001490313
+      },
+      "validation": {
+        "samples": 1195,
+        "patients": 8,
+        "percentage": 11.872826626924986
+      },
+      "test": {
+        "samples": 770,
+        "patients": 9,
+        "percentage": 7.650273224043716
+      }
+    },
+    "class_distribution": {
+      "overall": {
+        "malignant": 6950,
+        "benign": 3115
+      },
+      "train": {
+        "malignant": 5575,
+        "benign": 2525
+      },
+      "validation": {
+        "malignant": 840,
+        "benign": 355
+      },
+      "test": {
+        "malignant": 535,
+        "benign": 235
+      }
+    }
+  },
+  "400X": {
+    "total_samples": 9100,
+    "total_patients": 81,
+    "magnification": 400,
+    "random_state": 42,
+    "splits": {
+      "train": {
+        "samples": 7320,
+        "patients": 64,
+        "percentage": 80.43956043956044
+      },
+      "validation": {
+        "samples": 1095,
+        "patients": 8,
+        "percentage": 12.032967032967033
+      },
+      "test": {
+        "samples": 685,
+        "patients": 9,
+        "percentage": 7.527472527472527
+      }
+    },
+    "class_distribution": {
+      "overall": {
+        "malignant": 6160,
+        "benign": 2940
+      },
+      "train": {
+        "malignant": 4950,
+        "benign": 2370
+      },
+      "validation": {
+        "malignant": 760,
+        "benign": 335
+      },
+      "test": {
+        "malignant": 450,
+        "benign": 235
+      }
+    }
+  }
+}
